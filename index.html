@@ -61,6 +61,32 @@ script{
     margin: 0 auto;
 }
 
+.button1, .button2, .button3, .button {
+  display: flex;
+  justify-content: center;
+  font-family: the;
+  background-color: transparent; 
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  width: 50px%;
+  height: 30px;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+  font-size: 30px;
+  background-color: white; 
+  color: black;
+}
+
+.button > * {
+    display:inline-block;
+}
+
 
 </style>
 
@@ -71,7 +97,12 @@ script{
 
 <body>
 <!-- the meat -->
-	
+<div class="button">
+    <button class="button1" onclick="https://www.fortnite.com/item-shop">ITEM SHOP</button>
+	<button class="button2">OG SITE</button>
+	<button class="button3">PORTFOLIO</button>
+</div>
+
 	
 	<img class="center" src="assets/kanye.png" title="@JordiiPop on twitter.com" style="max-width: 479;margin-top: 50;">
 	
