@@ -1,3 +1,0 @@
-Tried to make a ragdoll, failed.
-
-Imported a small amount of game models as simple objects, such as goombas
